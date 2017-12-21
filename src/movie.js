@@ -4,13 +4,8 @@ class Movie extends Component {
   render(){
     return (
       <div>
-        <h1>The Lord of the Rings: A Trilogy</h1>
-        <p>4h 37min</p>
-        <ul>
-        <li>Title: {this.props.title}</li>
-        <li>Hours: {this.props.hours}</li>
-        <li>Minutes: {this.props.minutes}</li>
-        </ul>
+        <h1>{this.props.title}</h1>
+        <p>{this.props.hours}h {this.props.minutes}min</p>
       </div>
     )
   }
